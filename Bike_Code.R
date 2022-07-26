@@ -21,33 +21,33 @@ library("waffle")
 
 # Calculate sample size, create samples and remove large data set. 
 
-Divvy_Trips_2019_Q1 <- read.csv("Divvy_Trips_2019_Q1.csv")
-count(Divvy_Trips_2019_Q1)/10 # 36506
-set.seed(2022286)
-Cyclistic_Q1_2019<- Divvy_Trips_2019_Q1 %>%
-  sample_n(36506)
-rm(Divvy_Trips_2019_Q1) 
+# Divvy_Trips_2019_Q1 <- read.csv("Divvy_Trips_2019_Q1.csv")
+# count(Divvy_Trips_2019_Q1)/10 # 36506
+# set.seed(2022286)
+# Cyclistic_Q1_2019<- Divvy_Trips_2019_Q1 %>%
+# sample_n(36506)
+# rm(Divvy_Trips_2019_Q1) 
 
-Divvy_Trips_2019_Q2 <- read.csv("Divvy_Trips_2019_Q2.csv")
-count(Divvy_Trips_2019_Q2)/10 # 110816
-set.seed(2022286)
-Cyclistic_Q2_2019 <- Divvy_Trips_2019_Q2 %>%
-  sample_n(110816)
-rm(Divvy_Trips_2019_Q2)
+# Divvy_Trips_2019_Q2 <- read.csv("Divvy_Trips_2019_Q2.csv")
+# count(Divvy_Trips_2019_Q2)/10 # 110816
+# set.seed(2022286)
+# Cyclistic_Q2_2019 <- Divvy_Trips_2019_Q2 %>%
+# sample_n(110816)
+# rm(Divvy_Trips_2019_Q2)
 
-Divvy_Trips_2019_Q3 <- read.csv("Divvy_Trips_2019_Q3.csv")
-count(Divvy_Trips_2019_Q3)/10 # 164071
-set.seed(2022286)
-Cyclistic_Q3_2019 <- Divvy_Trips_2019_Q3 %>%
-  sample_n(164071)
-rm(Divvy_Trips_2019_Q3)
+# Divvy_Trips_2019_Q3 <- read.csv("Divvy_Trips_2019_Q3.csv")
+# count(Divvy_Trips_2019_Q3)/10 # 164071
+# set.seed(2022286)
+# Cyclistic_Q3_2019 <- Divvy_Trips_2019_Q3 %>%
+#  sample_n(164071)
+# rm(Divvy_Trips_2019_Q3)
 
-Divvy_Trips_2019_Q4 <- read.csv("Divvy_Trips_2019_Q4.csv")
-count(Divvy_Trips_2019_Q4)/10 # 70405
-set.seed(2022286)
-Cyclistic_Q4_2019 <- Divvy_Trips_2019_Q4 %>%
-  sample_n(70405)
-rm(Divvy_Trips_2019_Q4)
+# Divvy_Trips_2019_Q4 <- read.csv("Divvy_Trips_2019_Q4.csv")
+# count(Divvy_Trips_2019_Q4)/10 # 70405
+# set.seed(2022286)
+# Cyclistic_Q4_2019 <- Divvy_Trips_2019_Q4 %>%
+#  sample_n(70405)
+# rm(Divvy_Trips_2019_Q4)
 
 # Check that all variables are in the right order and have the same format.
 
